@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
+
+</head>
+
+<body>
+	<!-- Navbar header section -->
+	<header class="header">
+		<nav class="navbar">
+			<div class="logo">
+				<h2 class="logo-heading">Mohd Mufasil</h2>
+			</div>
+			<div class="hamburger" id="hamburger">
+				<i class="fas fa-bars hamburger-icon"></i>
+				<i class="fas fa-times cross-icon"></i>
+			</div>
+			<div class="menu">
+				<ul class="menu-list">
+					<li class="menu-list-items">
+						<a class="links" href="#home">
+							Home
+						</a>
+					</li>
+					<li class="menu-list-items">
+						<a class="links" href="#about">
+							About
+						</a>
+					<li class="menu-list-items">
+						<a class="links" href="#project">
+							Projects
+						</a>
+					<li class="menu-list-items">
+						<a class="links" href="#contact">
+							Contact Me
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Main hero banner -->
+	<section id="home" class="hero">
+		<div class="intro">
+			<div class="headings">
+				<h3 class="greet-heading">Hello, I'm</h3>
+				<h1 class="my-heading">Mohammed Abdul Mufasil</h1>
+				<h4 class="headings">
+					A front-end web developer with a solid background in JavaScript frameworks like ReactJS and Vue.js
+					and is also intimately familiar with the MERN (MongoDB, Express, React, and Node.js) software stack.
+					.
+				</h4>
+			</div>
+			<div class="intro-buttons">
+				<button class="btn common-btn">Download CV</button>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- About Section -->
+
+	<section id="about" class="about">
+		<div class="about-text">
+			<h1 class="my-heading">About Me</h1>
+			<p class="lead-para">
+
+				My name’s Mohammed Abdul Mufasil. I completed my <b>Bachelor of Technology in Computer Science and
+					Engineering with Hyderabad Institute of Technology and Management College From Jawaharlal Nehru
+					Technology University Hyderabad (JNTUH)</b> in the year of [2020-2024].
+				I’ve also been hoping to work on my goals, and I know I’d get the opportunity . I look forward to
+				telling you more about my qualifications
+				throughout this call and thank you in advance for your time.
+			</p>
+			<p>
+				I work as a web developer. I have been working as a web developer for quite some
+				time now. I believe I am a very ambitious person who loves to work on making the website work well.
+				Working on the web is my passion as I love to work on exciting projects. This is the field I get to
+				express my creativity. I would love to work in your esteemed organisation. This is all about me.
+			</p>
+		</div>
+		<div class="about-image">
+			<img src="passprt size photo.jpg" alt="About Image">
+		</div>
+	</section>
+
+
+	<!-- Project Section -->
+
+	<section id="project" class="project">
+		<div class="project-text">
+			<h1 class="my-heading">PROJECTS</h1>
+			<h4 class="headings">Text File Translator</h4>
+			<p class="lead-para">
+				The Text File Translator is a software application designed to facilitate the
+				translation of text from one language to another. It provides a user-friendly interface
+				that allows users to load a text file containing the source text and select the target
+				language for translation. The application utilizes advanced machine learning algorithms
+				and natural language processing techniques to accurately translate the text while
+				preserving its meaning and context .The objective of this project is to translate small
+				and large amount of information very easily. The input information which is to be
+				translated to desired language is taken in the form of text file and the expected output
+				will be in the form of translated text file. For one line translation, we can directly give
+				input text and get the output text which is translated to desired language. But for text
+				file translation, input is given in the form of text file and we expect the translated text
+				file as output. We use 'googletrans ' python library that implemented Google Translate
+				API in this project. By using this language translator any text and text file can be
+				translated to any desired language. The language translator's job is to take content from
+				one language and put it into another.
+			</p>
+		</div>
+		<div class="project-image">
+			<img src="WhatsApp Image 2024-03-19 at 12.37.59_28e91b7b.jpg" alt="About Image">
+		</div>
+	</section>
+	<section id="project" class="project">
+		<div class="project-text">
+			<h4 class="headings">Medical Prescription OCR</h4>
+			<p class="lead-para">
+				Undoubtedly, today's doctors are extremely busy due to the high medical workload, they tend
+				to scribble hard to read prescriptions which leads to confusion about the names of these drugs.
+				Patients often want to know what medications are prescribed before buying them. This problem
+				has been pondered by the developers for quite some time, but due to the bad or arguably bad
+				handwriting of doctors and their variety, there is no technique to fully recognize the names of
+				doctors. type of medicine. We thus lead to machine learning, where a system learns to recognize
+				a new set of scripts based on different types of scripts for the same drug. By recognizing
+				handwritten drug names, this article provides a solution to help pharmacists and patients have
+				a system that returns readable digital text about the drug. The system determines drug names
+				and dosages using preprocessing techniques such as image removal, noise reduction, and image
+				resizing. In the next step, we will process pre-processed images by classifying and extracting
+				their features using a convolutional neural network, and then apply optical character
+				recognition ( OCR) to determine the drug name based on the comparison with the data set.
+				contain all of them in post-processing. As a result, pharmacists will be able to minimize their
+				doubts about the drug name, as cases of drug name distortion will be reduced. Based on the
+				(CNN) model, the proposed system has achieved 70% accuracy in real cases.
+				Keywords: Handwritten prescription recognition, machine learning, drug name identification,
+				preprocessing techniques, convolutional neural network (CNN), optical character recognition
+			</p>
+		</div>
+		<div class="project-image">
+			<img src="medical 22024-03-19 at 12.37.58_75a32d9d.jpg" alt="About Image">
+		</div>
+	</section>
+
+
+
+
+	<!-- Contact me section -->
+
+	<section id="contact" class="contact">
+		<h2 class="w3-text-light-grey">Contact Me</h2>
+		<div class="contact-text">
+			<p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Hyderabad, India</p>
+			<p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 8184977981</p>
+			<p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:
+				mohdmufasil2001@gmail.com</p>
+		</div>
+	</section>
+
+	<!-- Footer section -->
+	<footer class="footer">
+		<div class="footer-content text-center">
+			<h4>
+				Copyright © 2024
+			</h4>
+			<div class="social-links">
+				<div class="footer-menu">
+					<ul class="footer-menu-list">
+						<li class="footer-list-items">
+							<a class="footer-links" href="https://www.facebook.com/mufassil.mohd.31s">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="footer-list-items">
+							<a class="footer-links" href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li class="footer-list-items">
+							<a class="footer-links" href="https://www.instagram.com/mohd.mufasil/">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+						<li class="footer-list-items">
+							<a class="footer-links" href="https://www.linkedin.com/in/mohammed-abdul-mufasil-9327bb287">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer">
+		</script>
+	<script src="script.js"></script>
+</body>
+
+</html>
